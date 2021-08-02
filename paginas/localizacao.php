@@ -1,7 +1,8 @@
 <?php
   include '../layout/cabecalho.php';
 ?>
-<section class="gallery">
+<br/><br/>
+<article class="about">
   <div id="contact">
         <address>
             <h1>Localização</h1>
@@ -17,7 +18,7 @@
         <p>Rua: Antonios Antunes Vieira n°2303</p>
         <p>Bairro: CECAP</p>
   </center>
-</section>
+</article>
             
 <?php
   include '../layout/rodape.php';
