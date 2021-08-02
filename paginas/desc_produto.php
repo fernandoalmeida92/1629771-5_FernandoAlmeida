@@ -27,7 +27,7 @@
         <article class="gallery-card">
             <p class="gallery-title"><?php printProduto($arrayProdutos,$id);?></p>
             <p class="gallery-text">Compre por apenas: R$ <?= $arrayProdutos[$id]['preco']?></p>
-            <p><input type="submit" value="COMPRAR" /></p>
+            <button type="button" class="btn btn-outline-primary">Comprar</button>
         </article>
 </section>
 <?php

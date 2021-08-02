@@ -4,7 +4,7 @@
     $arrayProdutos[1] = array(
         'titulo'=> "TORTA",
         'img-caminho' => "../imagens/morango1.jpg",
-        'nome' => "Torta de Morango Tradicional",
+        'nome' => "Torta de Morango ",
         'preco' => "10,00",
         'descricao' => "Torta de Morango
                         Tamanho Grande.",
