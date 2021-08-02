@@ -11,6 +11,10 @@ body{
     margin: 20px auto;
 }
 
+.cor{
+    color: red;
+}
+
 .header-top{
     height: 50px;
     background: #162028;

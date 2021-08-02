@@ -20,8 +20,8 @@
         <img src="imagens/fundo-topo2.jpg" width="1024px" height="400" alt="Modelo femino comendo doce">
 
         <article class="portfolio">
-            <h1>New Fashion Everything Never Enough</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat nisi non ante dictum congue. Cras id, posuere velit sed, lacinia mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vehicula, ipsum vel congue cursus, mi neque tincidunt enim, egestas porttitor felis neque et risus. Maecenas fringilla hendrerit enim malesuada laoreet. Aenean quis tortor a odio tempus tincidunt. Vivamus rutrum nulla sed metus congue bibendum. Sed ut aliquam purus. Donec odio mauris, commodo sed dignissim vitae, dapibus eget mauris.</p>
+            <h1>Doce Verão - Doces da Dona Rose</h1>
+            <h3>Venha conhecer nossos produtos <br> Todos de origem caseira e com muita <span class="cor">Qualidade</span>!</h3>
         </article>
 
 <?php
