@@ -18,10 +18,7 @@
     </div>
 
         <article class="gallery-card">
-        <!--<a href="#" target="_blank">
-            <img src="imagens/bolo-tradicional.jpg" width="250" height="190" alt="bolo de chocolate">
-        </a>-->
-        <img src="<?= $arrayProdutos[$id]['img-caminho'] ?>"width="265" height="200" alt="<?= $arrayProdutos[$id]['nome']?>" />
+            <img src="<?= $arrayProdutos[$id]['img-caminho'] ?>"width="265" height="200" alt="<?= $arrayProdutos[$id]['nome']?>" />
         </article>
 
         <article class="gallery-card">

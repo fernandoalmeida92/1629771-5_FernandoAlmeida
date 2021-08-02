@@ -29,13 +29,14 @@
     include 'paginas/home.php';
 ?>
             
-    <div id="contact">
+    <article class="about">
         <address>
-            Entre em Contato<br/>
-            012-1234-4567<br/>
-            <p>Cadastre para Mais informações <input type="email" name="email" class="email"/><input type="submit" value="Cadastrar" class="botao"/></p>
+            <h3>Entre em Contato</h3>
+            <h4>Fone: 021 18 99123 4567</h4>
+            <p>Entregas de Segunda a Sábado, das 8:00 Horas ás 18:00 Horas.</p>
+            <h5>Cadastre para Mais informações <input type="email" name="email" class="email"/> <button type="button" class="btn btn-success">Cadastrar</button></h5>
         </address>
-    </div>
+    </article>
 
 <?php
     include 'layout/rodape.php';

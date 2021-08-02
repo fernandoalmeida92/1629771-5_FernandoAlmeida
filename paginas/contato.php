@@ -3,14 +3,27 @@
 ?>
 <br/><br/>
 <article class="about">
-    <form method="GET" name="formulario" action="">
-        <fieldset><legend><h3>C O N T A T O</h3></legend>
-            <p>Nome: <input type="text" class="campo_nome" name="nome" placeholder="digite seu Nome aqui" /></p>
-            <p>E-mail: <input type="e-mail" class="campo_email" name="email" placeholder="Digite seu e-mail" /></p>
-            <p>Telefone: <input type="tel" name="telefone" placeholder="Digite seu Telefone" /></p>
-            <p>Estado:
-            <select name="select-estado">
-                <option value="1">Acre</option>
+    <form class="row g-3"><legend>C O N T A T O</legend>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="inputPassword4" placeholder="Digite seu nome aqui">
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu E-mail aqui">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Endereço">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Estado</label>
+            <select id="inputState" class="form-select">
+            <option value="1">Acre</option>
                 <option value="2">Alagoas</option>
                 <option value="1">Amapá</option>
                 <option value="1">Amazonas</option>
@@ -32,14 +45,23 @@
                 <option value="1">Rondônia</option>
                 <option value="1">Roraima</option>
                 <option value="5">Santa Catarina</option>
-                <option value="4">São Paulo</option>
+                <option value="4" selected>São Paulo</option>
                 <option value="2">Sergipe</option>
                 <option value="1">Tocantins</option>
                 <option value="3">Distrito Federal</option>
-            </select></p>
-            <label>Comentário:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
-            <br/><input type="submit" value="Enviar"> 
-        </fieldset>
+            </select>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+                Confirmo meus dados
+            </label>
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
     </form>
 </article>
 
