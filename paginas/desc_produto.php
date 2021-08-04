@@ -4,8 +4,8 @@
 
 <?php
     error_reporting(1);
-    include 'dadosProduto.php';
-    include 'function.php';
+    include '../dados/dadosProduto.php';
+    include '../function/function.php';
     $id=$_GET['id'];
 ?>
 
@@ -22,7 +22,7 @@
         </article>
 
         <article class="gallery-card">
-            <p class="gallery-title"><?php printProduto($arrayProdutos,$id);?></p>
+            <p class="gallery-title"><?= printProduto($arrayProdutos,$id);?></p>
             <p class="gallery-text">Compre por apenas: R$ <?= $arrayProdutos[$id]['preco']?></p>
             <button type="button" class="btn btn-outline-primary">Comprar</button>
         </article>

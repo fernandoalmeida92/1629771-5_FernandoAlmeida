@@ -1,4 +1,4 @@
-<?php include 'dadosProduto.php' ?>
+<?php include './dados/dadosProduto.php' ?>
 
 <?php
     function printProduto($array,$id){

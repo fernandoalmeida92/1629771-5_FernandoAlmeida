@@ -1,6 +1,6 @@
 <?php
-    include 'function.php';
-    include 'dadosProduto.php';
+    include 'function/function.php';
+    include 'dados/dadosProduto.php';
 ?>
 
 <section class="gallery">
